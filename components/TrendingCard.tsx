@@ -30,7 +30,6 @@ const TrendingCard = ({ movie :{movie_id,title,poster_url}, index :{trendingCard
                 <Text className="text-sm font-bold mt-2" numberOfLines={1}>
                     {title}
                 </Text>
-
         </TouchableOpacity>
     </Link>
 
