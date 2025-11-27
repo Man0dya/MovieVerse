@@ -4,7 +4,10 @@ import { Link } from 'expo-router';
 import React from 'react';
 import { Image, TouchableOpacity, View, Text } from 'react-native';
 
-const TrendingCard = ({ movie :{movie_id,title,poster_url}, index :{trendingCardProps} }) => {
+
+const TrendingCard = ({ 
+    movie :{movie_id,title,poster_url}, 
+    index, }:  TrendingCardProps) => {
   return (
     <Link href={`/movies/${movie_id}`} asChild>
         <TouchableOpacity className="w-32 relative pl-5">
@@ -33,6 +36,6 @@ const TrendingCard = ({ movie :{movie_id,title,poster_url}, index :{trendingCard
     </Link>
 
   )
-}
+};
 
 export default TrendingCard
