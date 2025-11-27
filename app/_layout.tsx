@@ -8,6 +8,7 @@ export default function RootLayout() {
         <StatusBar hidden={true} />
 
         <Stack>
+          <StatusBar hidden={true} />
           <Stack.Screen
               name="(tabs)"
               options={{
