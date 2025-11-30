@@ -160,3 +160,8 @@ expo start -c
 ## License
 Proprietary or project-specific; add details here if needed.
 
+## Community & Policies
+- See `CONTRIBUTING.md` for how to propose changes.
+- Please follow `CODE_OF_CONDUCT.md` when interacting.
+- Security issues: read `SECURITY.md` for private reporting.
+
