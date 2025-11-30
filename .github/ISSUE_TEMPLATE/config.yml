@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Man0dya/MovieVerse/security/policy
+    about: Please report security vulnerabilities via our Security Policy.
